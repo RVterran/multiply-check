@@ -1,0 +1,28 @@
+body {
+	background: linear-gradient(1000deg, #73d47a, #1b81b1);
+	color: white;
+}
+
+span {
+    font-size: 60px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+    flex-direction: column;
+}
+
+#answer-block {
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+	display: none;
+}
+
+#repeat {
+	width: 100px;
+	margin: 10px auto;
+}
